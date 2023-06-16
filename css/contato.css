@@ -1,0 +1,86 @@
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    
+}
+
+form .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+body{
+    background: #223243;
+}
+
+.container{
+    padding: 40px;
+    border-radius: 20px;
+    border: 8px solid #223243;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgb(0, 0, 0, 0.35);
+}
+
+.container  .input__box input{
+    padding: 12px 10px 12px 48px;
+    border: none;
+    width: 100%;
+    background: #223243;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    color: #fff;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgb(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+
+.container  textarea {
+    padding: 12px 10px 12px 48px;
+    border: none;
+    width: 100%;
+    background: #223243;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    color: #fff;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgb(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+
+.input__box h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.input__box i {
+    font-size: 1.5rem;
+}
+
+.heading{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: var(--bg-color);
+}
